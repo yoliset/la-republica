@@ -1,1 +1,98 @@
-/* Inserta tu código de la página home/index acá */
+/* header */
+
+.logo{
+    float: left;
+    padding-top: 50px;
+}
+.caja{
+    border: 1px solid black;
+    border-bottom: 5px solid red;
+    margin-top: 30px;
+}
+.cajita{
+    text-align: center;
+    background-color: red;
+    color: white;
+    width: 70px;
+    margin:  0 auto;
+    font-size: 12px;
+}
+header h1{
+    font-size: 15px;
+    text-align: center;
+}
+.editorial{
+    padding-top: 30px;
+}
+
+/* header */
+.hero h1{
+    text-align: center;
+    font-size: 25px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    margin: 0 auto;
+    padding-top: 14px;
+    padding-bottom: 7px;
+    position: relative;
+    top: -15px;
+}
+hr{
+    position: relative;
+    top: 22px;
+    background-color:  red;
+    padding: 3px
+}
+.hero img{
+    background-size: cover;
+    border: 6px solid white;
+}
+.cajas{
+    background-color: #c3c3c3;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-bottom: 50px;
+}
+.hero p{
+    font-size: 13px;
+    padding-top: 4px;
+}
+.hero h4{
+    font-size: 11px;
+}
+/* mercado */
+
+.mercado{
+    margin-top: 20px;
+}
+.mercado .imagen{
+    background-image: url(../image/img_especiales.jpg);
+    padding-bottom: 140px;
+    background-size: cover;
+    
+}
+.mercado .caja1{
+    margin-left: -12px;
+    border: 1px solid black;
+    margin-bottom: 40px
+}
+.mercado .cajainterna{
+    color: white;
+    position: relative;
+    top: 130px;
+    text-align: center;
+}
+.mercado .banner{
+    background-image: url(../image/banner-aside-home.jpg);
+    background-size: cover;
+    padding-bottom: 740px;
+}
+.mercado h2{
+    font-size: 17px;
+    color: red;
+}
+.mercado button{
+    padding: 10px 57px;
+    background-color: white;
+}
