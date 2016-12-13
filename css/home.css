@@ -1,4 +1,4 @@
-/* header */
+/* columnistas */
 
 .logo{
     float: left;
@@ -25,7 +25,7 @@ header h1{
     padding-top: 30px;
 }
 
-/* header */
+/* columnistas */
 .hero h1{
     text-align: center;
     font-size: 25px;
@@ -68,7 +68,7 @@ hr{
 }
 .mercado .imagen{
     background-image: url(../image/img_especiales.jpg);
-    padding-bottom: 140px;
+    padding-bottom: 180px;
     background-size: cover;
     
 }
@@ -89,10 +89,13 @@ hr{
     padding-bottom: 740px;
 }
 .mercado h2{
-    font-size: 17px;
+    font-size: 22px;
     color: red;
+    padding-bottom: 14px;
 }
 .mercado button{
-    padding: 10px 57px;
+    padding: 12px 52.4px;
     background-color: white;
+    font-size: 15px;
+    background-size: cover;
 }
