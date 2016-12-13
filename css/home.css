@@ -61,41 +61,52 @@ hr{
 .hero h4{
     font-size: 11px;
 }
-/* mercado */
+/* Noticias destacadas mercado */
 
-.mercado{
+.noticias-destacadas{
     margin-top: 20px;
 }
-.mercado .imagen{
+.noticias-destacadas .imagen{
     background-image: url(../image/img_especiales.jpg);
-    padding-bottom: 180px;
+    height: 180px;
     background-size: cover;
     
 }
-.mercado .caja1{
+.noticias-destacadas .caja1{
     margin-left: -12px;
-    border: 1px solid black;
-    margin-bottom: 40px
+    border: 2px solid rgba(206, 202, 202, 0.69);
+    padding-bottom: 16px;
+    margin-bottom: 25px;
+    margin-right: 10px;
 }
-.mercado .cajainterna{
+.noticias-destacadas .cajainterna{
     color: white;
     position: relative;
-    top: 130px;
-    text-align: center;
+    top: 120px;
+    font-size: 15px;
+    left: 15px;
 }
-.mercado .banner{
+.noticias-destacadas .degradado{
+    background:rgba(33, 32, 32, 0.52);
+    background: -moz-linear-gradient(bottom,rgba(25, 23, 23, 0.62), rgba(33, 32, 32, 0.52),);
+    background: -webkit-gradient(linear, 0 0, 0 100%, from(rgba(33, 32, 32, 0.05)), to(rgb(25, 23, 23)));
+    height: 180px;
+}
+.noticias-destacadas .banner{
     background-image: url(../image/banner-aside-home.jpg);
     background-size: cover;
-    padding-bottom: 740px;
+    padding-bottom: 600px;
+    margin-left: -18px
 }
-.mercado h2{
+.noticias-destacadas h2{
     font-size: 22px;
     color: red;
-    padding-bottom: 14px;
+    padding-bottom: 3px;
+    margin-top: 14px;
 }
-.mercado button{
-    padding: 12px 52.4px;
-    background-color: white;
+.noticias-destacadas p{
+    position: relative;
+    top: 14px;
     font-size: 15px;
-    background-size: cover;
+    box-sizing: border-box;
 }
